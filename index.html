@@ -1,78 +1,107 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible">
-    <title>Jeffrey Burgos</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <!-- Font API -->
+  <link href="https://fonts.googleapis.com/css?family=Teko:400,500,600&display=swap" rel="stylesheet">
+
+  <title>Jeffrey Burgos, Data Analyst</title>
 </head>
 
-<style>
-    nav{
-        float: inline-start;
-    }
-    .floatleft {
-        float: right;
-        position: relative;
-    }
-</style>
-
-<nav>
-    <h1>Jeffrey Burgos, Data Analyst</h1>
-    <p id="floatleft">About Me</p>
-    <p id="floatleft">Resume</p>
-</nav>
-
 <body>
-    <br>
-    <img src="https://www.ibts.org/wp-content/uploads/2017/08/iStock-476085198.jpg" alt="stand in image" width =100>
 
-    <p>Hi, I am 27 years old, and I enjoy many things like music, photography, video games, and sports.</p>
+  <nav class="navbar navbar-expand-lg navbar-light" id="navbarthings">
+    <a class="navbar-brand" id="navbarbrand" href="index.html">Jeffrey Burgos</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
 
-    <p>In my free time (when I have any) I like to take pictures, create music, play video games, or hang out with family and friends.</p>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto" id="navbardropdownfonts">
+        <li class="nav-item ">
+          <a class="nav-link" href="resume.html">Resume</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="aboutme.html">About Me</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            Projects
+          </a>
+          <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown" id="navbardropdown">
+            <a class="dropdown-item" href="https://jeffreyb92.github.io/billboard-analysis/" target="_blank">Top 100 Billboard Analysis</a>
+            <div class="dropdown-divider" id="dropdowndivider"></div>
+            <a class="dropdown-item" href="WebVisualizations/allartists.html">Lyrics Analysis & Prediction</a>
+            <div class="dropdown-divider" id="dropdowndivider"></div>
+            <a class="dropdown-item" href="WebVisualizations/topartists.html">Baseball Pitching Analysis</a>
+            <div class="dropdown-divider" id="dropdowndivider"></div>
+            <a class="dropdown-item" href="WebVisualizations/1960artists.html">Musical Twitter Analysis</a>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </nav>
 
-    <ul>
-        <li><a href="https://instagram.com/jburgosphotos" target="_blank">Instagram</a></li>
-        <li><a href="https://twitter.com/Try_n2b_Catholic" target="_blank">Twitter</a></li>
-        <li><a href="https://github.com/jeffreyb92" target="_blank">Github</a></li>
-        <li><a href="https://jeffreyb92.github.io/python-api-challenge">Python API Challenge</a></li>
-    </ul>
-
-    <table border=".5">
-        <thead>
-            <th colspan="3">Favorite Activites</th>
-        </thead>
-
-        <tr>
-            <td>
-               Photography 
-            </td>
-            <td>
-                Videography
-            </td>
-            <td>
-                Graphic Design
-            </td>
-        </tr>
-        <tr>
-            <td>
-                Guitar
-            </td>
-            <td>
-                Piano
-            </td>
-            <td>
-                Pocket Operators
-            </td>
-        </tr>
-
-        <tr>
-            <td>Basketball</td>
-            <td>Bowling</td>
-            <td>Baseball</td>
-        </tr>
+  <!-- Container Start -->
+  <div class="custom-container container-fluid">
+    <!--Normally these medium columns go full wide on small screen sizes-->
+    <div class="row justify-content-around" id="rowpad">
+      <div class="col-md-7 h-100" id="columnpad">
+        <p> <b id="title-text">Data Analyst</b> with a <br>
+          <span class="bold-text">B.S. in Computer Science, M.S. in Data Science, <br> 
+          Data Scientist with Python Certificate from DataCamp,</span>
+          and currently completing a <span class="bold-text">Bootcamp in Data Analytics & Visualization </span> 
+          through <span class="bold-text">Rutgers University.</span>  I am skilled in <span class="bold-text">Python, Tableau,SQL, R, and Excel.</span>  
+          An <span class="bold-text">avid learner</span>  who works well with others, and is <span class="bold-text">passionate </span> 
+          about helping a company come to know their data on a more 
+          <span class="bold-text">profound level.</span>  Recently completed a project with a team of three 
+          others about Air Pollution change in New Jersey over the last 30 years.
+        <br>
+        <a href="https://github.com/jeffreyb92" target="_blank"><img src="assets/images/github.svg" alt="github icon" width="50"></a>
+        <a href="https://linkedin.com/in/burgosjeffrey" target="_blank"><img src="assets/images/linkedin.svg" alt="linkedin icon" width="50"></a>
+      </p> 
         
-    </table>
+      </div>
+      <div class="col-md-4" id="columnpad-inv">
+        <img class="img-fluid max-width: 100%; height: auto;" id="img-padding" src="assets/images/JeffProfilePicture.jpg" alt="Jeff's Profile Picture"> 
+      </div>
+    </div>
 
+  </div>
+  <!-- Container Ends -->
+
+  <!-- Footer Things -->
+  <footer id="footerthings">
+    <p>Powered By HTML, CSS, Bootstrap and FontAwesome</p>
+  </footer>
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+    crossorigin="anonymous"></script>
 </body>
+
 </html>
+
+
+
+
+
+<!-- <span class="sr-only">(current)</span> -->
