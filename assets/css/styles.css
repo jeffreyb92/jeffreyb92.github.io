@@ -5,14 +5,9 @@ body {
 }
 
 /* Image Things */
-img {
-    margin-right: 30px;
-}
-
 #img-padding {
     padding-left: 50px;
     padding-right: 50px;
-    padding-top: 20px;
 }
 
 /* Container Things */
@@ -36,12 +31,12 @@ img {
 }
 
 #columnpad {
-    padding: 25px;
+    padding: 20px;
+    padding-top: 10px;
     background-color: #5888cc;
 }
 
 #columnpad-inv {
-    padding: 25px;
     background: transparent;
 }
 
@@ -62,36 +57,39 @@ p {
 }
 
 #title-text {
-    font-size: 60pt;
+    font-size: 50pt;
     line-height: 10pt;
 }
 
 .bold-text {
     /* font-weight: bold; */
-    font-size: 30pt;
-    line-height: 40pt;
+    font-size: 28pt;
+    line-height: 30pt;
 }
 
 /* Navbar Things */
 #navbarthings {
     background-color: #386db9;
-    box-shadow: 5px 10px black;
+    box-shadow: 5px 8px black;
     border-color: black;
     padding-right: 5px;
+    padding-top: 7px;
+    padding-left: 13px;
+    padding-bottom: 3px;
 }
 
 #navbardropdown {
     background-color: #386db9;
-    box-shadow: 5px 10px black;
+    box-shadow: 5px 5px black;
     border-radius: 0px;
-    margin-top: 18px;
+    margin-top: 9px;
 }
 
 #navbarbrand {
     display: inline-block;
     font-family: 'Teko', sans-serif;
-    font-size: 28pt;
-    padding-top: 12px;
+    font-size: 23pt;
+    padding-top: 9px;
     margin-right: 0;
     padding-right: 0;
 }
@@ -102,8 +100,8 @@ p {
 
 #navbardropdownfonts {
     font-family: 'Teko', sans-serif;
-    font-size: 18pt;
-    padding-right: 25px;
+    font-size: 16pt;
+    padding-right: 0;
 }
 
 #navbardropdownfonts div {
@@ -129,7 +127,7 @@ p {
 }
 
 #footerthings p {
-    padding-top: 20px;
+    padding-top: 10px;
     padding-left: 15px;
     text-align: left;
 }
